@@ -8,9 +8,10 @@
   border-radius: 12px;
 }
 .img {
-  width: 40%;
-  border-radius: 12px;
+  width: 30%;
+  border-radius: 40px;
   margin:0 auto 15px auto;
+  padding: 3%;
   display: block;
   object-fit: cover;
 }

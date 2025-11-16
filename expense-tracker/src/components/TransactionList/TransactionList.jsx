@@ -7,7 +7,7 @@ export default function TransactionList() {
 
   return (
     <div className={styles.listSection}>
-      <h3>Transaction History</h3>
+      <h3 className={styles.listSection}>Transaction History</h3>
 
       <ul className={styles.list}>
         {transactions.map((t) => (
