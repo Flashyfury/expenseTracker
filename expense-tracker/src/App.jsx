@@ -7,7 +7,8 @@ import AddCapital from "./components/AddCapital/AddCapital";
 import { useState } from "react";
 
 function App() {
-  const [capital,setCapital] = useState(0);
+  const [capital, setCapital] = useState(0);
+
   return (
     <div className={styles.container}>
       <Header />
@@ -15,8 +16,6 @@ function App() {
       <AddTransaction />
       <TransactionList />
       <AddCapital setCapital={setCapital}/>
-     
-
     </div>
   );
 }
