@@ -1,0 +1,30 @@
+.listSection { margin-top: 20px; }
+.list { list-style: none; }
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  background: #f9f9f9;
+  border-left: 6px solid;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.income { border-left-color: green; }
+.expense { border-left-color: red; }
+
+.amount {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.delete {
+  background: red;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  margin-left: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}

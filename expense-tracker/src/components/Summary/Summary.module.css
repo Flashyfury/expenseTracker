@@ -1,0 +1,19 @@
+.summary {
+  background: #eef6ff;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  font-size: 18px;
+}
+
+.income { color: green; }
+.expense { color: red; }
+.net { color: #1565c0; }
+
+
