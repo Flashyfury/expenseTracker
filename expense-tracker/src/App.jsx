@@ -4,19 +4,21 @@ import TransactionList from "./components/TransactionList/TransactionList";
 import Summary from "./components/Summary/Summary";
 import styles from "./App.module.css";
 import AddCapital from "./components/AddCapital/AddCapital";
+import { useState } from "react";
+import ProfileSection from "./components/profileSection/EditableProfile";
+import EditableProfile from "./components/profileSection/EditableProfile";
 
 function App() {
-  function App() {
   const [capital, setCapital] = useState(0);
+
   return (
     <div className={styles.container}>
       <Header />
+      <EditableProfile />
       <Summary capital={capital}/>
       <AddTransaction />
       <TransactionList />
-      <AddCapital />
-     
-
+      <AddCapital setCapital={setCapital}/>
     </div>
   );
 }

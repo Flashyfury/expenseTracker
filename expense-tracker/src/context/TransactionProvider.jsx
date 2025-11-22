@@ -17,7 +17,7 @@ export const TransactionProvider = ({ children }) => {
       text,
       amount: parseFloat(amount),
       category,
-      type, // income or expense
+      type, 
       date: new Date().toLocaleDateString(),
     };
 

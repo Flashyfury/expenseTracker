@@ -47,7 +47,7 @@ export default function AddTransaction() {
         <option>Shopping</option>
         <option>Salary</option>
         <option>Investment</option>
-        <option>MaujMastii</option>
+        <option>Entertaintment</option>
         <option>Other</option>
       </select>
 
