@@ -6,10 +6,12 @@ import styles from "./App.module.css";
 import AddCapital from "./components/AddCapital/AddCapital";
 
 function App() {
+  function App() {
+  const [capital, setCapital] = useState(0);
   return (
     <div className={styles.container}>
       <Header />
-      <Summary capital={AddCapital}/>
+      <Summary capital={capital}/>
       <AddTransaction />
       <TransactionList />
       <AddCapital />
