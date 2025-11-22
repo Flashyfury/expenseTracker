@@ -12,4 +12,8 @@ export default function Header() {
       <h1 className={styles.title}>Expense Tracker</h1>
     </div>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 2cc5a4beba47cb582d1c5a1dc2d7076ee74c9200

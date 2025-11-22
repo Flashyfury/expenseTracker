@@ -5,8 +5,11 @@ import Summary from "./components/Summary/Summary";
 import styles from "./App.module.css";
 import AddCapital from "./components/AddCapital/AddCapital";
 import { useState } from "react";
+<<<<<<< HEAD
 import ProfileSection from "./components/profileSection/EditableProfile";
 import EditableProfile from "./components/profileSection/EditableProfile";
+=======
+>>>>>>> 2cc5a4beba47cb582d1c5a1dc2d7076ee74c9200
 
 function App() {
   const [capital, setCapital] = useState(0);
@@ -14,7 +17,10 @@ function App() {
   return (
     <div className={styles.container}>
       <Header />
+<<<<<<< HEAD
       <EditableProfile />
+=======
+>>>>>>> 2cc5a4beba47cb582d1c5a1dc2d7076ee74c9200
       <Summary capital={capital}/>
       <AddTransaction />
       <TransactionList />
