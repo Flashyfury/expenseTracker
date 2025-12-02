@@ -4,7 +4,9 @@ import TransactionList from "./components/TransactionList/TransactionList";
 import Summary from "./components/Summary/Summary";
 import styles from "./App.module.css";
 import AddCapital from "./components/AddCapital/AddCapital";
+import EditableProfile from "./components/profileSection/EditableProfile";
 import { useState } from "react";
+
 
 function App() {
   const [capital, setCapital] = useState(0);
